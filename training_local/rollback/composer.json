@@ -1,0 +1,14 @@
+{
+    "name": "log/log",
+    "description": "log",
+    "authors": [
+        {
+            "name": "fajar",
+            "email": "fajar.scripts@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.0.*",
+		"leeoniya/dump-r": "dev-master"
+    }
+}

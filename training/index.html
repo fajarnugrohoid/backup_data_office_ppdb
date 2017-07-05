@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="result"></div>
+<input type="text" name="nama" id="nama" value="" placeholder="">
+<input type="text" name="input1" id="input1" value="" placeholder="">
+</body>
+
+<script type="text/javascript" charset="utf-8">
+
+var area = (function (){
+	var width=5;
+	var height=3;
+	res = width * height;	
+	return res;
+}());
+
+var sum = (function fsum(){
+	var x = 8; var y=6;
+	return x+y;
+}());
+document.write('aaaa:' + sum);
+
+
+var varnama=document.getElementById("nama");
+var input1 = document.getElementById("input1");
+
+function checkUsername(param1){
+	alert(param1)
+}
+
+function setResult(param2){
+	document.getElementById("result").textContent = param2;
+}
+
+varnama.addEventListener('blur', function(){
+	checkUsername(5);
+}, false);
+
+input1.addEventListener('onkeyup', function(){
+	setResult(input1.value);
+}, false);
+
+</script>
+
+</html>

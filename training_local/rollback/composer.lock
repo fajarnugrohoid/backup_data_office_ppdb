@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "954beca5b872bd4708fe09b18c12220e",
+    "packages": [
+        {
+            "name": "leeoniya/dump-r",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leeoniya/dump_r.php.git",
+                "reference": "f6d3694f4ddd7dc08d7b3900875116eaf600034d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leeoniya/dump_r.php/zipball/f6d3694f4ddd7dc08d7b3900875116eaf600034d",
+                "reference": "f6d3694f4ddd7dc08d7b3900875116eaf600034d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "jdorn/sql-formatter": "Pretty-print dumped SQL strings"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "dump_r.php"
+                ],
+                "psr-4": {
+                    "dump_r\\": "src/dump_r"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leon Sorokin",
+                    "email": "leeoniya@gmail.com",
+                    "homepage": "https://github.com/leeoniya",
+                    "role": "Developer"
+                }
+            ],
+            "description": "a cleaner, leaner mix of print_r() and var_dump()",
+            "homepage": "https://github.com/leeoniya/dump_r.php",
+            "keywords": [
+                "debug",
+                "dump",
+                "pretty",
+                "print",
+                "print_r",
+                "var_dump"
+            ],
+            "time": "2015-09-04 22:05:16"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "b704c49a3051536f67f2d39f13568f74615b9922"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b704c49a3051536f67f2d39f13568f74615b9922",
+                "reference": "b704c49a3051536f67f2d39f13568f74615b9922",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Monolog": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Logging for PHP 5.3",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging"
+            ],
+            "time": "2011-10-24T09:39:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "leeoniya/dump-r": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

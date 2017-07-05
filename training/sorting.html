@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	var prices = [3, 1, 5, 4, 2,7,9,25];
+	var arrex = [3, 5];
+	//console.log(prices);
+	console.log(prices);
+	function sortme(arr){
+		var res = [];
+		for(i=0;i<arr.length;i++){
+
+			for (j=0;j<arr.length;j++){
+				var z = parseInt(j) + parseInt(i) +1;
+				//console.log("i:" + i + ",j:"+ j + ",i+j:" + z);
+				
+				if ((arr[z]-arr[i]) < 0){
+					switchleftright(arr, i, z, arr[i],arr[z]);
+				}
+				console.log(arr); 
+			}
+				
+		}
+		return arr;
+	}
+
+	function switchleftright(arr, idxleft, idxright, valleft,valright){
+		arr[idxleft] = valright;
+		arr[idxright] = valleft;
+		return arr;
+	}
+
+	var aftersort=sortme(prices);
+	//console.log(aftersort); 
+	//console.log(switchleftright(arrex,0,1,arrex[0],arrex[1]));
+</script>
+
+
+
+</body>
+</html>

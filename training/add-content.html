@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<h1>Constructive &amp; Co.</h1>
+	
+	<form action="#" method="get" accept-charset="utf-8">
+		<input type="text" name="" id="username" value="" placeholder="">
+	</form>
+	<ul>
+		<li id="a">1</li>
+		<li id="b">2</li>
+		<li id="c">3</li>
+		<li class="cde">4</li>
+	</ul>
+	<script src="js/jquery-3.1.0.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		jQuery.noConflict();
+		function checkUsername(e, minLength){
+			alert('aaaaa');
+		}
+
+		var el = document.getElementById('username');
+		
+		el.addEventListener('blur', function(e){
+			checkUsername(e, 5);
+		},false);
+		
+
+		jQuery(function() {
+			jQuery('li').each(function(){
+				var ids = this.id;
+				jQuery(this).append('<a href="#">' + ids + '</a>');
+				
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+ALTER TABLE `ppdb_option` CHANGE `quota_luarkota` `quota_lk` INT(11) NOT NULL;
+ALTER TABLE `ppdb_option` CHANGE `old_quota_luarkota` `old_quota_lk` INT(11) NOT NULL;

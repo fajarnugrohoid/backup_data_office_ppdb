@@ -1,0 +1,4 @@
+aturan filterisasi versi ini
+
+1.luar kota dengan jarak sekolah ke rumah kurang dari <= 2km pilihan1 ataupun pilihan2, maka dikategorikan mendapat insentif='1'
+2.nilai luar kota harus >= dalam wilayah atau gabungan wilayah
