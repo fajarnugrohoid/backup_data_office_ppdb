@@ -1,0 +1,428 @@
+//FOOTER WIDGETS
+.footer_widgets_wrapper {
+   padding: 66px 0 20px;
+   color: #aaa;
+
+   .widget_search {
+      .widget-title {
+	  margin-bottom: 21px;
+      }
+   }
+   a {
+      text-decoration: none !important;
+      &:hover {
+	  color: $white;
+      }
+   }
+   .widget-title {
+      margin-bottom: 15px;
+      h6 {
+	  font-size: 14px;
+	  color: $white;
+	  text-transform: uppercase;
+	  .colored {
+	     color: $blue-lt;
+	  }
+      }
+   }
+   .stm_wp_widget_text {
+      .textwidget {
+	  font-size: 13px;
+	  line-height: 20px;
+	  color: #aaa;
+      }
+   }
+   .widget_text {
+      .textwidget {
+	  font-size: 13px;
+	  line-height: 20px;
+	  color: $white;
+	  .date {
+	     color: #aaaaaa;
+	     font-weight: 700;
+	  }
+      }
+   }
+   .widget_mc4wp_form_widget {
+      .widget-title {
+	  margin-bottom: 16px;
+      }
+      .stm-mc-label {
+	  color: #888;
+      }
+      .stm-mc-unit {
+	  position: relative;
+	  margin-bottom: 8px;
+	  input[type="submit"] {
+	     position: absolute;
+	     top: 0;
+	     right: 0;
+	     height: 38px;
+	     width: 40px;
+	     z-index: 10;
+	     opacity: 0;
+	  }
+	  &:after {
+	     @include pseudo();
+	     @include fa();
+	     content: "\f09e";
+	     top: 0;
+	     right: 0;
+	     height: 38px;
+	     width: 40px;
+	     background-color: $orange-dk;
+	     text-align: center;
+	     line-height: 38px;
+	     color: $white;
+	     font-size: 17px;
+	     text-indent: 2px;
+	     z-index: 9;
+	  }
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="number"] {
+	  position: relative;
+	  height: 38px;
+	  line-height: 38px;
+	  padding: 0 50px 0 17px;
+	  color: #aaa;
+      }
+   }
+   .stm-instagram-unit {
+      //padding-bottom: 28px !important;
+      .textwidget {
+	  margin: -4px -9px 0;
+	  #sb_instagram {
+	     padding-bottom: 0 !important;
+	  }
+      }
+   }
+   .stm_widget_recent_entries {
+      .stm-last-post-widget {
+	  position: relative;
+	  top: -3px;
+	  font-size: 13px;
+	  line-height: 20px;
+	  color: #aaa;
+	  margin-bottom: 20px;
+	  &:last-child {
+	     margin-bottom: 0;
+	  }
+	  .comments-number {
+	     position: relative;
+	     top: 3px;
+	     a {
+		 display: block;
+		 padding-left: 21px;
+		 color: $blue-lt !important;
+		 font-size: 11px;
+		 text-transform: uppercase;
+		 text-decoration: none !important;
+	     }
+	     & i {
+		 position: absolute;
+		 left: 0;
+		 top: 50%;
+		 margin-top: -6px;
+		 font-size: 13px;
+	     }
+	     height: 20px;
+	  }
+      }
+   }
+   .widget_socials {
+      margin: 0 -5px;
+      &:after {
+	  @include clear();
+      }
+      li {
+	  float: left;
+	  margin: 5px 4px 10px;
+	  a {
+	     display: block;
+	     width: 45px;
+	     height: 45px;
+	     background-color: #3b3d3f;
+	     text-align: center;
+	     line-height: 45px;
+	     font-size: 20px;
+	     color: $white !important;
+	     &:hover {
+		 background-color: $blue-lt;
+	     }
+	  }
+      }
+   }
+   .widget_search {
+      form {
+	  position: relative;
+	  input[type=search] {
+	     height: 38px;
+	     line-height: 38px;
+	  }
+	  &:after {
+	     @include pseudo();
+	     @include fa();
+	     content: '\f002';
+	     top: 0;
+	     right: 0;
+	     width: 46px;
+	     height: 38px;
+	     line-height: 38px;
+	     background-color: $blue-lt;
+	     font-size: 19px;
+	     color: $white !important;
+	     text-align: center;
+	     z-index: 9;
+	  }
+	  label {
+	     display: block;
+	     max-width: 79.2%;
+	  }
+	  input[type=submit] {
+	     position: absolute;
+	     top: 0;
+	     right: 0;
+	     width: 46px;
+	     height: 38px;
+	     z-index: 10;
+	     opacity: 0;
+	  }
+      }
+   }
+}
+
+//Summary
+#wp-calendar {
+   width: 100%;
+}
+
+#wp-calendar > caption {
+   padding-top: 0;
+   margin-top: -4px;
+}
+
+.tagcloud {
+   margin-right: -6px;
+   a {
+      display: inline-block;
+      margin: 0 6px 8px 0;
+      padding: 4px 9px;
+      background-color: $white;
+      @include box-shadow(0,1px,4px,rgba(0,1,1,0.2));
+      font-size: 13px !important;
+      color: #aaa;
+      text-decoration: none !important;
+      &:hover {
+	  background-color: $blue-lt;
+	  color: $white;
+      }
+   }
+}
+
+//Main widgets
+//Search widget
+#main {
+   .widget {
+      margin-bottom: 27px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #ddd;
+   }
+   .widgettitle,
+   .widget-title {
+      font-size: 16px;
+      line-height: 32px;
+      text-transform: uppercase;
+   }
+   .widget_search {
+      .widget-title {
+	  display: none;
+      }
+      form.search-form {
+	  position: relative;
+	  input[type=search] {
+	     height: 45px;
+	     line-height: 45px;
+	     padding-right: 57px;
+	  }
+	  input[type=submit] {
+	     position: absolute;
+	     top: 0;
+	     right: 0;
+	     height: 45px;
+	     width: 45px;
+	     text-indent: -9999px;
+	     opacity: 0;
+	     z-index: 20;
+	  }
+	  label {
+	     display: block;
+	  }
+	  &:after {
+	     @include pseudo();
+	     @include stm_font();
+	     content: "\e810";
+	     top: 0;
+	     right: 0;
+	     width: 45px;
+	     height: 45px;
+	     line-height: 50px;
+	     font-size: 12px;
+	     text-align: center;
+	     color: $blue-lt;
+	     z-index: 10;
+	  }
+	  &:before {
+	     @include pseudo();
+	     right: 0;
+	     top: 0;
+	     width: 5px;
+	     height: 45px;
+	     background-color: $blue-lt;
+	     z-index: 10;
+	  }
+	  &:hover {
+	     &:before {
+		 width: 45px;
+	     }
+	     &:after {
+		 color: $white;
+	     }
+	  }
+	  &.focus {
+		  &:before {
+		 width: 45px;
+	     }
+	     &:after {
+		 color: $white;
+	     }
+	  }
+      }
+   }
+   .widget_text {
+      font-size: 13px;
+      line-height: 22px;
+   }
+   .stm-last-post-widget {
+      margin-bottom: 26px;
+      font-size: 13px;
+      line-height: 20px;
+      color: $grey;
+      .comments-number {
+	  position: relative;
+	  margin-top: 14px;
+	  a {
+	     display: block;
+	     padding-left: 21px;
+	     color: $blue-lt !important;
+	     font-size: 11px;
+	     text-transform: uppercase;
+	     text-decoration: none !important;
+	  }
+	  & i {
+	     position: absolute;
+	     left: 1px;
+	     top: 50%;
+	     margin-top: -6px;
+	     font-size: 13px;
+	  }
+	  height: 20px;
+      }
+      &:last-child {
+	  margin-bottom: 10px;
+      }
+   }
+   .textwidget {
+      p:last-child {
+	  margin-bottom: 0;
+      }
+   }
+}
+
+.stm-small-text {
+   display: block;
+   font-size: 12px;
+   line-height: 18px;
+   margin-bottom: 10px;
+   color: $grey;
+}
+
+.widget_archive {
+   .select2-container--default .select2-selection--single .select2-selection__arrow {
+      width: 47px;
+      b {
+	  left: 50%;
+	  margin-left: -7px;
+	  z-index: 10;
+      }
+      &:after {
+	  @include pseudo();
+	  top: -1px;
+	  bottom: 0;
+	  right: 0;
+	  width: 4px;
+	  background-color: $blue-lt;
+	  z-index: 1;
+      }
+   }
+   .select2 {
+      &:hover {
+	  &.select2-container--default .select2-selection--single .select2-selection__rendered {
+	     padding-right: 50px;
+	  }
+	  &.select2-container--default .select2-selection--single .select2-selection__arrow {
+	     b {
+		 color: $white !important;
+	     }
+	     &:after {
+		 width: 47px;
+	     }
+	  }
+      }
+      &.select2-container--open {
+	      &.select2-container--default .select2-selection--single .select2-selection__rendered {
+	     padding-right: 50px;
+	  }
+	  &.select2-container--default .select2-selection--single .select2-selection__arrow {
+	     b {
+		 color: $white !important;
+	     }
+	     &:after {
+		 width: 47px;
+	     }
+	  }
+      }
+   }
+}
+
+.media-widget-list {
+   margin: 0 -8px;
+   .media-widget-item {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      a {
+	  display: block;
+	  padding: 0 8px;
+      }
+   }
+}
+
+.footer_widgets_wrapper .widget_socials {
+   position: relative;
+   left: 3px;
+   li {
+      margin-right: 3px;
+      margin-left: 4px;
+      &:first-child {
+	  margin-right: 3px;
+      }
+      &:nth-child(2) {
+	  margin-right: 3px;
+      }
+      &:nth-child(3) {
+	  margin-right: 3px;
+      }
+   }
+}

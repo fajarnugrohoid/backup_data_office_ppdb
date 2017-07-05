@@ -1,0 +1,93 @@
+.stm-button,
+input[type="submit"],
+button,
+.button,
+.load-more-btn {
+   display: block;
+   text-align: center;
+   padding: 17px 28px 15px;
+   font-size: 14px;
+   line-height: 14px;
+   font-weight: 700;
+   letter-spacing: 0.3px;
+   text-transform: uppercase;
+   color: $white !important;
+   border-radius: 3px;
+   background-color: $darker_lt;
+   text-decoration: none !important;
+   outline: none !important;
+   visibility: visible;
+   border: none;
+   white-space: normal;
+   &.button-sm {
+      padding: 13px 18px 11px;
+      font-size: 12px;
+      line-height: 12px;
+   }
+   @include box-shadow(0,2px,0,#b11313);
+   &:hover {
+
+   }
+   &:active {
+      position: relative;
+      top: 2px;
+      @include box-shadow(0,0,0,#b11313);
+   }
+   &.not-visible {
+      opacity:0;
+      visibility: hidden;
+   }
+}
+
+.stm-button {
+   display: inline-block;
+   &.stm-button-icon {
+      position: relative;
+      padding: 16px 25px 15px 45px;
+      font-weight: 700;
+      visibility: inherit;
+      & i {
+         position: absolute;
+         top: 50%;
+         left: 16px;
+         font-size: 18px;
+         margin-top: -9px;
+      }
+   }
+   &:active {
+      box-shadow: 0 0 0 transparent !important;
+   }
+}
+
+.icon-button {
+   position: relative;
+   padding-left: 60px;
+   padding-right: 42px;
+   letter-spacing: -0.2px;
+   font-weight: 700;
+   i {
+      position: absolute;
+      padding-left: 1px;
+      top: 50%;
+      margin-top: 1px;
+      left: 32px;
+      font-size: 17px;
+      @include transform(translateY(-50%));
+   }
+}
+
+.button-fluid {
+   width: 100%;
+}
+
+.stm-request-test-drive {
+   margin-top: 13px;
+   width: 100%;
+}
+
+.contact-us-submit {
+   input[type=submit] {
+      padding-left: 43px;
+      padding-right: 43px;
+   }
+}

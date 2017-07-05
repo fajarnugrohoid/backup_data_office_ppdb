@@ -1,0 +1,87 @@
+html {
+  overflow-y: scroll;
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.container {
+  width: auto;
+  max-width: 1140px;
+}
+
+#wrapper {
+  overflow: hidden;
+}
+
+.stm-col-pad-left {
+  padding-left: 25px !important;
+}
+
+.stm-col-pad-right {
+  padding-right: 25px !important;
+}
+
+.modal-open #wrapper {
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  -ms-filter: blur(8px);
+  filter: blur(8px);
+}
+
+.row-4 {
+  .col-md-3:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+.row-3 {
+  .col-md-4:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.row-2 {
+  .col-md-6:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.post-type-archive-service #wrapper {
+  margin-bottom: 30px;
+}
+
+.wpcf7-response-output {
+  margin: 10px 0 0 !important;
+  padding: 15px !important;
+  border: 2px solid $blue-lt !important;
+  color: $blue-lt !important;
+  border-radius: 5px;
+  &.wpcf7-validation-errors {
+    border-color: $red !important;
+    color: $red !important;
+  }
+  &.wpcf7-mail-sent-ok {
+    border-color: #32cd32 !important;
+    color: #32cd32 !important;
+  }
+}
+
+.wpcf7-not-valid-tip {
+  display: none !important;
+}
+
+.mg-bt-25px {
+  margin-bottom: 25px;
+}
+
+#top-bar {
+  color: $white;
+  background-color: transparent !important;
+}

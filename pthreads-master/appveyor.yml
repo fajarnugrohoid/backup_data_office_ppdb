@@ -1,0 +1,61 @@
+version: '{branch}.{build}'
+branches:
+  only:
+  - master
+install:
+- cmd: cinst wget
+build_script:
+- cmd: >-
+    "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\vcvars32.bat"
+
+    wget http://windows.php.net/downloads/php-sdk/php-sdk-binary-tools-20110915.zip
+
+    7z x -y php-sdk-binary-tools-20110915.zip -oC:\projects\php-sdk
+
+    C:\projects\php-sdk\bin\phpsdk_setvars.bat
+
+    git clone https://github.com/php/php-src C:\projects\php-src
+
+    mkdir C:\projects\php-src\ext\pthreads
+
+    xcopy C:\projects\pthreads C:\projects\php-src\ext\pthreads /s /e /y
+
+    wget http://windows.php.net/downloads/php-sdk/deps-7.0-vc14-x86.7z
+
+    7z x -y deps-7.0-vc14-x86.7z -oC:\projects\php-src
+
+    wget http://www.mirrorservice.org/sites/sources.redhat.com/pub/pthreads-win32/pthreads-w32-2-9-1-release.zip
+
+    7z x -y pthreads-w32-2-9-1-release.zip -oC:\projects\pthreads-w32
+
+    copy C:\projects\pthreads-w32\Pre-built.2\include\pthread.h C:\projects\php-src\deps\include\pthread.h
+
+    copy C:\projects\pthreads-w32\Pre-built.2\include\sched.h C:\projects\php-src\deps\include\sched.h
+
+    copy C:\projects\pthreads-w32\Pre-built.2\include\semaphore.h C:\projects\php-src\deps\include\semaphore.h
+
+    copy C:\projects\pthreads-w32\Pre-built.2\lib\x86\pthreadVC2.lib C:\projects\php-src\deps\lib\pthreadVC2.lib
+
+    cd C:\projects\php-src
+
+    buildconf.bat
+
+    configure.bat --disable-all --enable-cli --enable-zts --with-pthreads=shared --with-config-file-scan-dir=C:\projects\pthreads\bin\modules.d --with-prefix=C:\projects\pthreads\bin --with-php-build=deps
+
+    nmake
+
+    nmake install
+
+    copy php.ini-development C:\projects\pthreads\bin\php.ini
+
+    mkdir C:\projects\pthreads\bin\modules.d
+
+    echo extension=php_pthreads.dll > C:\projects\pthreads\bin\modules.d\php.ini
+
+    copy C:\projects\pthreads-w32\Pre-built.2\dll\x86\pthreadVC2.dll C:\projects\pthreads\bin\pthreadVC2.dll
+test_script:
+- cmd: C:\projects\pthreads\bin\php.exe -doutput_buffering=0 run-tests.php ext\pthreads -p C:\projects\pthreads\bin\php.exe -q --show-diff
+artifacts:
+  - path: bin
+    name: master
+    type: zip

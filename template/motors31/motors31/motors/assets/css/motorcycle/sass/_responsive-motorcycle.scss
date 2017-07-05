@@ -1,0 +1,336 @@
+@media only screen and (max-width: 769px) {
+   .stm_moto_single_grid_item .image img {
+      width: 100%;
+   }
+   .stm-boats-listing-icons .stm_listing_icon_filter_single {
+      width: 25%;
+   }
+   .stm_mc-filter-selects {
+      padding-right: 0;
+      .stm_mc-submit-btn {
+	  position: static;
+	  padding: 0 15px;
+	  width: 215px;
+      }
+   }
+   .row-3 .col-sm-6 {
+      &:nth-child(2n+1) {
+	  clear: both;
+      }
+      &:nth-child(3n+1) {
+	  clear: none;
+      }
+   }
+   body .listing-list-loop .content .meta-top {
+      padding-top: 7px;
+      margin-bottom: 15px;
+   }
+   body .listing-list-loop .content .meta-bottom .stm-single-car-links .stm-single-car-link a {
+      padding-left: 27px;
+      padding-right: 8px;
+      font-size: 11px;
+      i {
+	  left: 5px;
+      }
+   }
+   .stm-single-car-links .stm-single-car-link a,
+   .single-car-data {
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+   .stm-single-car-links .stm-single-car-link a i {
+      display: none;
+   }
+   body .listing-list-loop .content .meta-bottom .stm-single-car-links .stm-single-car-link a {
+      padding: 5px 10px;
+      text-align: center;
+   }
+   .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab > a {
+      padding: 12px 25px 14px !important;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   .vc_tta.vc_general .vc_tta-panel-title>a {
+      padding-left: 15px !important;
+   }
+   body.stm-template-motorcycle .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-body {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+   }
+   body.stm-template-motorcycle .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel{
+      .vc_tta-panel-body {
+	  padding: 0 !important;
+      }
+      &.vc_active {
+	  .vc_tta-panel-body {
+	     padding: 25px 20px 25px !important;
+	  }
+      }
+   }
+   .stm-contact-us-form-wrapper {
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   body.stm-template-motorcycle .stm-single-listing-car-features ul.list-style-2 {
+      width: 100%;
+   }
+   span.vc_tta-title-text {
+      font-size: 20px;
+   }
+   .stm-listing-single-price-title {
+      padding-top: 30px;
+      .price_unit {
+	  float: left;
+	  width: 100%;
+	  .price {
+	     margin-bottom: 20px;
+	     padding: 0 20px;
+	     margin-left: 0;
+	     &:after {
+		 display: none;
+	     }
+	  }
+      }
+   }
+   .stm-filter-tabs-skewed {
+      max-width: 100%;
+      white-space: nowrap;
+      overflow: scroll;
+      padding-right: 37px;
+      margin-left: -30px;
+      padding-left: 27px;
+   }
+   .single-listings {
+      .stm-filter-tabs-skewed {
+	  margin-left: -15px;
+      }
+   }
+   body {
+      .listing-list-loop {
+	  background: transparent;
+	  margin-bottom: 30px;
+	  &:hover {
+	     background: transparent;
+	  }
+	  .image {
+	     margin: 0 auto !important;
+	  }
+	  .content {
+	     max-width: 350px;
+	     padding: 0 15px;
+	     margin: 0 auto;
+	     background: rgba(36, 49, 54, 0.8);
+	     .meta-top .price {
+		 float: left;
+		 margin-top: 20px;
+		 margin-left: 0;
+		 &:before {
+		    display: none;
+		 }
+		 &.discounted-price {
+		    float: left;
+		    text-align: left;
+		 }
+	     }
+	     .meta-middle .meta-middle-unit {
+		 display: inline-block !important;
+		 padding-right: 5px;
+	     }
+	     .stm-car-view-more {
+		 margin-bottom: 20px;
+	     }
+	  }
+      }
+   }
+
+   .stm_motorcycle-header .stm_mc-main.header-main .stm_top-menu {
+      display: none;
+   }
+
+   .stm_mc-nav {
+      padding: 0 15px 30px;
+      background-color: $black-near;
+   }
+
+   .stm_motorcycle-header .stm_mc-nav .main-menu {
+      padding: 0;
+      margin: 0 -30px;
+      .inner {
+	  padding: 0;
+	  .header-menu {
+	     padding: 30px 0 0;
+	     background: transparent;
+	     li {
+		 display: block;
+		 &.opened {
+		    > a {
+			border-bottom: 0 !important;
+		    }
+		 }
+		 > a {
+		    display: block;
+		    height: 54px;
+		    line-height: 54px;
+		    padding: 0 15px;
+		    background: transparent;
+		    color: $white;
+		    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		 }
+		 &:first-child a {
+		    border-top: 1px solid rgba(255, 255, 255, 0.3);
+		 }
+		 &.current-page-item,
+		 &.current-menu-item {
+		    > a {
+			background: transparent;
+		    }
+		 }
+		 .sub-menu {
+		    position: static;
+		    padding: 0;
+		    width: 100%;
+		    visibility: visible;
+		    opacity: 1;
+		    padding-left: 20px;
+		    background: rgba(36, 49, 54, 1);
+		    box-shadow: none;
+		    > li {
+			> a {
+			   margin-left: -20px;
+			   padding-left: 30px;
+			}
+		    }
+		    .sub-menu {
+			padding-left: 40px;
+			li {
+			   a {
+			      margin-left: 0;
+			      padding-left: 0;
+			   }
+			   &:last-child {
+			      a {
+				  margin-left: -60px;
+				  padding-left: 60px;
+			      }
+			   }
+			}
+		    }
+		 }
+		 li {
+		    a {
+			background: transparent;
+			line-height: 37px !important;
+			&:after {
+			   display: none !important;
+			}
+		    }
+		    &:last-child,
+		    &:first-child {
+			a {
+			   border-top: 0;
+			}
+		    }
+		 }
+	     }
+	  }
+      }
+   }
+   .mobile-menu-holder .header-menu {
+      > li .arrow {
+	  text-align: center;
+	  height: 46px;
+	  line-height: 46px;
+      }
+   }
+
+   .mobile-menu-trigger {
+      margin-top: 0;
+      top: -1px;
+      right: 15px;
+      span {
+	  display: block;
+	  width: 28px;
+	  height: 4px;
+	  margin-bottom: 5px;
+	  border-radius: 2px;
+	  background: rgba(255, 255, 255, 0.5);
+	  &:first-child {
+	     position: relative;
+	     top: 0;
+	     -webkit-transition: top .3s .3s, transform .3s 0s;
+	     transition: top .3s .3s, transform .3s 0s;
+	  }
+	  &:nth-child(2) {
+	     opacity: 1;
+	     -webkit-transition: opacity .3s;
+	     transition: opacity .3s;
+	  }
+	  &:last-child {
+	     margin-bottom: 0;
+	     position: relative;
+	     top: 0;
+	     -webkit-transition: top .3s .3s, transform .3s 0s;
+	     transition: top .3s .3s, transform .3s 0s;
+	  }
+      }
+      &.opened {
+	  span {
+	     background: #aaa;
+	     &:first-child {
+		 top: 7px;
+		 @include transform(rotate(-45deg));
+		 -webkit-transition: top .3s 0s, transform .3s .3s;
+		 transition: top .3s 0s, transform .3s .3s;
+	     }
+	     &:nth-child(2) {
+		 opacity: 0;
+
+	     }
+	     &:last-child {
+		 top: -11px;
+		 @include transform(rotate(45deg));
+		 -webkit-transition: top .3s 0s, transform .3s .3s;
+		 transition: top .3s 0s, transform .3s .3s;
+	     }
+	  }
+      }
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .classic-filter-row .sidebar-entry-header {
+      padding-top: 0;
+      padding-left: 40px;
+      text-align: left;
+      .h4 {
+	  float: none;
+	  width: 100%;
+      }
+   }
+   .stm-boats-listing-icons .stm_listing_icon_filter_single {
+      width: 50%;
+   }
+   .stm_listing_tabs_style_2 {
+      .row-3 {
+	  .col-xxs-12 {
+	     width: 100%;
+	     .boats-image-unit {
+		 display: none;
+	     }
+	  }
+      }
+   }
+}
+
+@media only screen and (max-width: 350px) {
+   .row-3 {
+      .col-xxs-12 {
+	  width: 100%;
+      }
+   }
+   body .listing-list-loop .image .image-inner {
+      min-height: 160px;
+   }
+}

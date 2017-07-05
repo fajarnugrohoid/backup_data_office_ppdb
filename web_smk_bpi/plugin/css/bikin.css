@@ -1,0 +1,14 @@
+body{
+    padding: 15px;
+}
+#peta {
+  width: 90%;
+  height: 90%;
+  margin-left: 5%;
+}
+#keter {
+  width: 20%;
+  height: 90%;
+  float: right;
+  background-color: red;
+}

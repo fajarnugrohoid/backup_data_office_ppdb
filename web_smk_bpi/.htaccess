@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond $1 !^(index\.php|(.*)\.swf|uploadify|application|system|js)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php/?$1 [L]
+</IfModule>
+
+# PHP 5, Apache 1 and 2.
+<IfModule mod_php5.c>
+	php_value post_max_size                   128M
+	php_value upload_max_filesize           128M
+</IfModule>

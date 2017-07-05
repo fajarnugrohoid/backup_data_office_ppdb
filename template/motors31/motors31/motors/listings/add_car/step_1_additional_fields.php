@@ -1,0 +1,1 @@
+<?php stm_add_a_car_addition_fields(false, $stm_histories, $id); ?>

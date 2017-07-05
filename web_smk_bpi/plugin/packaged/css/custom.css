@@ -1,0 +1,149 @@
+.wrapper{
+	max-width: 960px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: auto;
+}
+
+.right{
+	text-align: right;
+}
+
+.tabrakan{
+	font-size: 25px;
+}
+
+.tengah{
+	text-align: center;
+}
+
+.bottomabit{
+	margin-top: 15px;
+}
+
+.sekilas{
+	height: 210px;
+}
+
+	.judul-sekilas{
+		background: #015c9f;
+		padding: 5px;
+		color: white;
+	}
+	
+.berita{
+	height: 400px;
+}
+
+	.judul-berita{
+		background: #cf0a37;
+		padding: 5px;
+		color: white;
+	}
+	
+.kelebihan{
+	padding: 10px;
+	background: url(../../img/bg_maps.jpg) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.tinggikelebihan{
+	height: 130px;
+}
+
+.biru{
+	color: #015c9f;
+}
+
+	.hovermenu:hover{
+		color: #cf0a37;
+	}
+
+.footer{
+	padding: 5px;
+	background: #2E3740;
+	color: #A5AAB2;
+	border-bottom: 5px solid #015c9f;
+}
+
+.white{
+	color: white;
+}
+
+	.padding5{
+		padding: 7px;
+	}
+	
+	.hargautama{
+		border-top: 5px solid #cf0a37;
+		margin: 10px 0 0 0;
+		background-color: #015c9f;
+		color: white;
+		padding: 10px 0 10px 0;
+	}
+	
+.gambarsekilasberita{
+	background: grey;
+}
+
+.bggaleri{
+	padding: 10px;
+	color: white;
+	
+	background: url(../../img/bg_galeri.jpg) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fotogaleri>a>img{
+	height: 110px;
+}
+
+	.fotogaleri>a>img:hover{
+		border: 1px solid #015c9f;
+	}
+	
+.judulgaleri{
+	font-size: 50px;
+}
+
+.wrapper-login{
+width: 500px;
+height: 400px;
+margin: auto;
+margin-top: 150px;
+}
+
+.header2{
+	font-size: 20px;
+}
+
+.ratakanan{
+	text-align: right;
+}
+
+.top-header{
+	background: #333333;
+}
+
+.logoadmin{
+color: white;
+margin-top: 5px;
+}
+
+.upabit{
+	margin-bottom: 15px;
+}
+
+.tinggigaleri{
+	min-height: 600px;
+}
+
+.iconpelayanan{
+	font-size: 70px;
+}

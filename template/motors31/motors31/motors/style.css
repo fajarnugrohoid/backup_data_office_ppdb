@@ -1,0 +1,1229 @@
+/*
+	Theme Name: Motors
+	Theme URI: http://motors.stylemixthemes.com/
+	Author: StylemixThemes
+	Author URI: http://stylemixthemes.com/
+	Description: Motors theme
+	Version: 3.1
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: blue, black, red, dark, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, sticky-post, theme-options
+	Text Domain: motors
+*/
+
+/*In order to save fixes list, last update styles for car dealer
+will be added here, and in next update they will be moved in app.css*/
+
+/* Automanager styles */
+.main-menu .header-menu > li > ul > li > ul a {
+    line-height: 18px;
+}
+
+.stm_automanager_features_list .stm_automanager_single h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.stm_automanager_features_list ul.list-style-2 li {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.automanager-listing-page .regular-price-with-sale {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.automanager-listing-page .regular-price-with-sale strong {
+    display: block;
+    margin-top: -5px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.car-action-unit.add-to-compare {
+    padding-right: 10px;
+    padding-left: 36px;
+    min-width: 158px;
+    white-space: nowrap;
+}
+
+.car-action-unit.stm-brochure {
+    min-width: 157px;
+    padding-left: 35px;
+}
+
+body.woocommerce-cart .entry-header,
+body.woocommerce-checkout .entry-header {
+    margin-bottom: 50px;
+}
+
+#top-bar .top-bar-wrapper {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.single-regular-sale-price > table tr td:first-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+#searchform .search-input {
+    padding: 0 75px 0 25px !important;
+}
+
+.stm-isotope-listing-item {
+    padding-bottom: 15px;
+}
+
+.listing-list-loop .content .meta-top {
+    margin-bottom: 16px;
+}
+
+.listing-list-loop .content .meta-middle {
+    margin-bottom: 19px;
+}
+
+.listing-list-loop .content .meta-middle .meta-middle-unit {
+    margin-bottom: 8px;
+}
+
+.stm-blog-fullwidth-info {
+    height: 580px;
+    overflow: hidden;
+}
+
+.car-listing-modern-grid img.lazy.img-responsive {
+    min-height: 134px;
+}
+
+#footer-copyright .footer-copyright:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+body .vc_row[data-vc-full-width] {
+    overflow: visible;
+}
+
+body .vc_row[data-vc-full-width].vc_parallax {
+    overflow: hidden;
+}
+
+#stm-fixed-cover {
+    background-size: cover;
+}
+
+.listing-list-loop .image .image-inner {
+    min-height: 163px;
+}
+
+.stm-single-car-history-image {
+    margin: 15px 0;
+}
+
+.stm-template-listing .listing-list-loop .image .image-inner,
+.stm-directory-grid-loop .image {
+    overflow: hidden;
+}
+
+/* Featured badge */
+.stm-badge-directory {
+    position: absolute;
+    right: -65px;
+    padding: 0 55px;
+    top: 20px;
+    width: 200px;
+    height: 33px;
+    line-height: 33px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #1bc744;
+    color: #fff !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stm-featured-top-cars-title {
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 120px;
+    border-bottom: 3px solid #1bc744;
+}
+
+.stm-featured-top-cars-title .heading-font:after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    right: -14px;
+    height: 100%;
+    width: 32px;
+    background-color: #1bc744;
+    -moz-transform: skew(45deg, 0deg);
+    -o-transform: skew(45deg, 0deg);
+    -ms-transform: skew(45deg, 0deg);
+    -webkit-transform: skew(45deg, 0deg);
+    transform: skew(45deg, 0deg);
+    z-index: -1;
+}
+
+.stm-featured-top-cars-title .heading-font {
+    position: relative;
+    display: inline-block;
+    padding: 3px 16px;
+    color: #fff;
+    background-color: #1bc744;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.stm-featured-top-cars-title a {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    font-size: 13px;
+    color: #777;
+}
+
+.stm-special-car-top-on,
+.stm-isotope-sorting-featured-top .listing-list-loop {
+    border-bottom: 3px solid #1bc744;
+}
+
+.car-listing-row .stm-isotope-sorting-featured-top .car-meta-top {
+    border-bottom: 3px solid #1bc744;
+}
+
+body.stm-boxed .single-add-to-compare.single-add-to-compare-visible {
+    z-index: 9999;
+}
+
+.stm-user-private .stm-schedule {
+    display: none;
+}
+
+.single-car-data > table tr td.t-value.t-vin {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.filter.stm-vc-ajax-filter button[disabled] {
+    opacity: 0.5;
+}
+
+.car-listing-tabs-unit img {
+    width: 100%;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    margin: 30px 0;
+    background-color: #232628;
+    border: none;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.woocommerce-MyAccount-navigation ul:before {
+    display: none;
+}
+
+.woocommerce-MyAccount-navigation ul:after {
+    display: none;
+}
+
+.woocommerce-MyAccount-navigation ul > li {
+    float: none;
+    position: relative;
+    margin: 0;
+    display: table-cell;
+}
+
+.woocommerce-MyAccount-navigation ul > li > a {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 18px 18px;
+    background-color: #232628;
+    border-radius: 0;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.woocommerce-MyAccount-navigation ul > li > a:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -4px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #cc6119;
+    opacity: 0;
+}
+
+.woocommerce-MyAccount-navigation ul > li > a .vc_tta-icon {
+    position: relative;
+    top: 3px;
+    color: #fff;
+}
+
+.woocommerce-MyAccount-navigation ul > li > a .vc_tta-title-text {
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
+
+.woocommerce-MyAccount-navigation ul > li.is-active > a:before {
+    display: none;
+}
+
+.woocommerce-MyAccount-navigation ul > li.is-active a {
+    background-color: #fff;
+    color: #cc6119;
+    border: 3px solid #232628;
+}
+
+.stm-icon-counter .dp-in {
+    width: 100%;
+}
+
+@media (max-width: 490px) {
+    .stm-similar-cars-units .stm-similar-car {
+        width: 100% !important;
+        margin-bottom: 10px;
+        float: none !important;
+    }
+}
+
+.stm-form-price-edit .stm_price_input:last-child {
+    border-top: 1px solid #fff;
+}
+
+.stm-form-price-edit .stm_price_input {
+    padding: 25px 40px;
+}
+
+/*Boat adds*/
+.stm-template-boats .testimonial-unit .testimonial-meta .author-car i {
+    font-family: 'boaticons' !important;
+}
+
+.stm-template-boats .testimonial-unit .testimonial-meta .author-car i:before {
+    content: "\e901";
+}
+
+.stm-boat-icon-row-new .icon {
+    padding: 0 !important;
+    height: 60px;
+    width: 60px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.woocommerce .quantity input {
+    padding: 0 30px 0 3px;
+}
+
+body.stm-template-boats.single-listings .form-group input {
+    line-height: 37px;
+}
+
+body.stm-template-listing.header_remove_compare .lOffer-compare {
+    display: none;
+}
+
+/*Hide compare*/
+body.stm-template-car_dealer.header_remove_compare .stm_compare_mobile,
+body.stm-template-car_dealer.header_remove_compare .help-bar-compare {
+    display: none;
+}
+
+/*Hide shop*/
+body.stm-template-car_dealer.header_remove_cart .stm_cart_mobile,
+body.stm-template-car_dealer.header_remove_cart .help-bar-shop {
+    display: none;
+}
+
+body.stm-template-boats.header_remove_compare .stm_compare_mobile,
+body.stm-template-boats.header_remove_compare .lOffer-compare {
+    display: none;
+}
+
+body.stm-template-boats.header_remove_cart .stm_cart_mobile,
+body.stm-template-boats.header_remove_cart .help-bar-shop {
+    display: none;
+}
+
+/*General styles for pricing plans*/
+.stm-user-current-plan-info {
+    margin-top: 30px;
+    padding: 21px 29px 25px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.stm-user-current-plan-info .sub-title {
+    margin-bottom: 1px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: -0.2px;
+}
+
+.stm-user-current-plan-info .stm-plan-name {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.stm-user-current-plan-info .stm-free-plan {
+    margin-bottom: 20px;
+}
+
+.stm-user-current-plan-info .days-left {
+    min-height: 24px;
+    margin-bottom: 13px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.stm-user-current-plan-info .button {
+    padding: 15px 22px 13px;
+    font-size: 12px;
+}
+
+.stm-template-listing .button:active {
+    box-shadow: none;
+}
+
+.stm-user-private .stm-user-private-sidebar.side-fixed {
+    max-width: 255px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.stm_add_car_title_form {
+    margin: 25px 0;
+}
+
+.stm_add_car_title_form input {
+    max-width: 60%;
+}
+
+.stm-form-price-edit h4 {
+    margin-bottom: 16px;
+}
+
+.stm-prices-add {
+    margin-bottom: 30px;
+}
+
+.stm-form-price-edit .stm_price_input {
+    padding-bottom: 30px;
+}
+
+/*LISTING CHECKOUT STYLES*/
+
+body.stm-template-listing .woocommerce-message {
+    border-color: #8de3a1;
+    font-size: 15px;
+    color: #153e4d;
+    font-weight: 700;
+}
+
+body.stm-template-listing .woocommerce-message i {
+    color: #153e4d;
+}
+
+body.stm-template-listing .stm-billing-fields {
+    padding: 37px 30px 30px;
+    background-color: #fff;
+    border-top: 4px solid #153e4d;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+body.stm-template-listing .woocommerce-billing-fields h4 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: none;
+}
+
+body.stm-template-listing .woocommerce-shipping-fields h3 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: none;
+}
+
+body.stm-template-listing .woocommerce-shipping-fields textarea#order_comments {
+    height: 383px;
+}
+
+body.stm-template-listing.woocommerce-checkout #payment ul.payment_methods li input {
+    margin-top: 0;
+    display: inline !important;
+}
+
+body.stm-template-listing .woocommerce-checkout-review-order {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+body.stm-template-listing .woocommerce-checkout-review-order .colored-separator {
+    display: none;
+}
+
+body.stm-template-listing .woocommerce-checkout-review-order h4 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: none !important;
+}
+
+body.stm-template-listing.woocommerce-checkout .shop_table {
+    border-radius: 0;
+    padding: 35px 30px 35px;
+    background: #153e4d;
+    color: #fff;
+}
+
+body.stm-template-listing.woocommerce-checkout .woocommerce table.shop_table td.product-name {
+    color: #fff;
+}
+
+body.stm-template-listing.woocommerce-checkout .woocommerce table.shop_table > tbody tr td {
+    color: #fff;
+}
+
+body.stm-template-listing.woocommerce-checkout .woocommerce table.woocommerce-checkout-review-order-table tbody tr td:first-child {
+    padding-left: 0;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+body.stm-template-listing.woocommerce-checkout .woocommerce table.woocommerce-checkout-review-order-table .cart-subtotal {
+    display: none;
+}
+
+body.stm-template-listing.woocommerce-checkout #payment div.payment_box {
+    margin: 5px 0;
+    padding: 0;
+}
+
+body.stm-template-listing.woocommerce-checkout #payment ul.payment_methods li {
+    margin: 0 0 15px;
+}
+
+body.stm-template-listing.woocommerce-checkout #payment ul.payment_methods {
+    padding: 0;
+}
+
+body.stm-template-listing table.woocommerce-checkout-review-order-table.shop_table th {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+body.stm-template-listing table.woocommerce-checkout-review-order-table.shop_table tr.cart_item td {
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+/*CART*/
+body.stm-template-listing.woocommerce-cart {
+
+}
+
+body.stm-template-listing.woocommerce-cart .woocommerce .quantity_actions span {
+    height: 14px;
+    width: 14px;
+    line-height: 14px;
+}
+
+body.stm-template-listing.woocommerce-cart .woocommerce .quantity_actions span.minus {
+    line-height: 10px;
+}
+
+body.stm-template-listing.woocommerce-cart .woocommerce table.shop_table th {
+    font-size: 15px;
+}
+
+/*ORDER*/
+body.stm-template-listing.woocommerce-order-received {
+
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-received {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-received i {
+    margin-right: 5px;
+    margin-bottom: 15px;
+    color: #1bc744;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details {
+    display: inline-block;
+    padding: 30px;
+    background: #153e4d;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details li {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    text-transform: none;
+    margin-bottom: 0;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details li span {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details li strong {
+    margin-top: 3px;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details li strong span,
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details li strong {
+    font-weight: 700;
+    font-size: 15px !important;
+    opacity: 1 !important;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details li:last-child {
+    border: 0;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce-thankyou-order-details.heading-font {
+    color: #fff;
+}
+
+body.stm-template-listing.woocommerce-order-received .colored-separator {
+    display: none;
+}
+
+body.stm-template-listing.woocommerce-order-received h2,
+body.stm-template-listing.woocommerce-order-received h4 {
+    margin-top: 40px;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+body.stm-template-listing.woocommerce-order-received .shop_table {
+    padding: 0;
+    background: transparent;
+    color: #555;
+}
+
+body.stm-template-listing.woocommerce-order-received .woocommerce {
+    margin-bottom: 60px;
+}
+
+.woocommerce table.my_account_orders .button {
+    margin-left: 10px;
+}
+
+.subscriptio_subscription_info {
+    margin-top: 40px;
+}
+
+body.stm-template-listing .woocommerce .colored-separator {
+    opacity: 0;
+}
+
+body.woocommerce-order-pay .woocommerce table.shop_table th,
+body.woocommerce-order-pay .woocommerce table.shop_table td,
+.subscriptio_frontend_items_list,
+.subscriptio_frontend_items_list th,
+.subscriptio_frontend_items_list td {
+    font-size: 15px !important;
+}
+
+body.woocommerce-order-pay .woocommerce {
+    margin-bottom: 60px;
+}
+
+body.stm-template-listing.woocommerce-account .woocommerce-info,
+body.stm-template-listing.woocommerce-account .woocommerce-info .woocommerce-message {
+    margin-top: 30px;
+}
+
+#subscriptio_button_cancel_subscription {
+    margin: 20px 0 !important;
+}
+
+/*UPD 2.6.1*/
+body.stm-template-listing .tooltip .tooltip-arrow {
+    border-right-color: #232628;
+}
+
+.listing-archive-dealer-info .dealer-info-block.stm_phone_disabled .title {
+    margin-top: 17px;
+}
+
+.single-add-to-compare.single-add-to-compare-visible.overadded {
+    background: red;
+}
+
+.single-add-to-compare.single-add-to-compare-visible.overadded .compare-fixed-link {
+    border-color: #fff;
+}
+
+.single-add-to-compare.single-add-to-compare-visible.overadded .add-to-compare-icon {
+    color: #fff;
+}
+
+.compare-remove-all {
+    margin-left: 15px;
+}
+
+.single-add-to-compare.single-add-to-compare-visible.overadded .add-to-compare-icon:before {
+    content: "\f071";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+li.product-category.product {
+    width: 33.33333333%;
+    float: left;
+    padding: 0 15px;
+}
+
+li.product-category.product a {
+    display: block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 49px !important;
+}
+
+.car-listing-row .car-meta-bottom ul li i {
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+
+}
+
+@media (max-width: 768px) {
+    .stm-blog-pagination .page-numbers li {
+        margin-bottom: 15px;
+    }
+
+    .stm-boats-contact-information {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.stm-simple-parallax {
+    background-position-x: 50% !important;
+}
+
+.stm-simple-parallax .stm-simple-parallax-gradient {
+    position: absolute;
+    width: 1920px;
+    height: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.stm-single-car-page {
+    max-width: 1920px;
+    width: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    background-position-x: 50% !important;
+}
+
+.stm-single-car-page:before,
+.stm-single-car-page:after,
+.stm-simple-parallax .stm-simple-parallax-gradient:before,
+.stm-simple-parallax .stm-simple-parallax-gradient:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 130px;
+    height: 100%;
+}
+
+.stm-simple-parallax .stm-simple-parallax-gradient:before {
+    left: 0;
+}
+
+.stm-simple-parallax .stm-simple-parallax-gradient:after {
+    right: 0;
+}
+
+.stm-single-car-page:before {
+    left: 0;
+}
+
+.stm-single-car-page:after {
+    right: 0;
+}
+
+.stm-simple-parallax-vertical:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 130px;
+    width: 100%;
+}
+
+.stm-simple-parallax > .vc_column_container {
+    position: relative;
+    z-index: 10;
+}
+
+.entry-header {
+    z-index: 10;
+}
+
+.stm_add_car_form .stm-form-5-notes .stm-seller-notes-phrases {
+    padding-left: 24px;
+}
+
+/*IE bug*/
+.listing-archive-dealer-info .dealer-info-block {
+    display: block;
+}
+
+/*Tabs Fix 11.10.16*/
+.stm_listing_tabs_style_2 .stm_listing_nav_list {
+    margin-top: -9px;
+}
+
+.stm_listing_tabs_style_2 .stm_listing_nav_list li a {
+    display: block;
+}
+
+.stm-template-boats .header-listing.stm-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #232628;
+    padding: 15px 0 10px;
+}
+
+/*oct 27*/
+.woocommerce form .form-row label.checkbox {
+    display: inline-block;
+}
+
+body .woocommerce form .form-row .input-checkbox {
+    margin: 18px 8px 0 0;
+    -webkit-appearance: checkbox;
+    float: left;
+}
+
+body.stm-template-listing.woocommerce-checkout .woocommerce table.shop_table.customer_details > tbody tr td {
+    color: #555;
+}
+
+.stm-pricing-table__periods-link {
+    display: none;
+}
+
+.stm-pricing-table__periods-link.stm-pricing-table__periods-item_active {
+    display: block;
+}
+
+/*Language styles*/
+/*Listing fix*/
+html[lang="it-IT"] .car-action-unit.stm-share,
+html[lang="it-IT"] .car-action-unit.stm-brochure,
+html[lang="de-DE"] .car-action-unit.stm-share,
+html[lang="de-DE"] .car-action-unit.stm-brochure,
+html[lang="es-ES"] .car-action-unit.stm-share,
+html[lang="es-ES"] .car-action-unit.stm-brochure,
+html[lang="fr-FR"] .car-action-unit.stm-share,
+html[lang="fr-FR"] .car-action-unit.stm-brochure,
+html[lang="pt-PT"] .car-action-unit.stm-share,
+html[lang="pt-PT"] .car-action-unit.stm-brochure {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+}
+
+html[lang="it-IT"] .car-action-unit.add-to-compare,
+html[lang="de-DE"] .car-action-unit.add-to-compare,
+html[lang="fr-FR"] .car-action-unit.add-to-compare,
+html[lang="es-ES"] .car-action-unit.add-to-compare,
+html[lang="pt-PT"] .car-action-unit.add-to-compare {
+    width: auto;
+}
+
+/*Moto*/
+html[lang="it-IT"] .classic-filter-row .filter-sidebar .filter-price .stm-current-slider-labels,
+html[lang="fr-FR"] .classic-filter-row .filter-sidebar .filter-price .stm-current-slider-labels,
+html[lang="es-ES"] .classic-filter-row .filter-sidebar .filter-price .stm-current-slider-labels,
+html[lang="pt-PT"] .classic-filter-row .filter-sidebar .filter-price .stm-current-slider-labels,
+html[lang="de-DE"] .classic-filter-row .filter-sidebar .filter-price .stm-current-slider-labels {
+    width: 100%;
+    margin: 15px 0 25px;
+    text-align: left;
+}
+
+html[lang="fr-FR"] .listing-list-loop .content .meta-bottom .stm-single-car-links .stm-single-car-link a,
+html[lang="es-ES"] .listing-list-loop .content .meta-bottom .stm-single-car-links .stm-single-car-link a,
+html[lang="pt-PT"] .listing-list-loop .content .meta-bottom .stm-single-car-links .stm-single-car-link a,
+html[lang="de-DE"] .listing-list-loop .content .meta-bottom .stm-single-car-links .stm-single-car-link a,
+html[lang="it-IT"] .listing-list-loop .content .meta-bottom .stm-single-car-links .stm-single-car-link a {
+    font-size: 11px;
+}
+
+.gform_wrapper ul.gfield_checkbox li .checker span input[type="checkbox"] {
+    display: block !important;
+    position: absolute;
+    width: 100% !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 0 !important;
+}
+
+.gform_wrapper ul.gfield_checkbox li .checker span {
+    position: relative;
+}
+
+.gform_wrapper ul.gfield_radio li .radio span input[type="radio"] {
+    display: block !important;
+    position: absolute;
+    width: 100% !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 0 !important;
+}
+
+.gform_wrapper ul.gfield_radio li .radio span {
+    position: relative;
+}
+
+.gform_wrapper .gfield_radio li label {
+    line-height: 1;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+body.post-type-archive-listings.stm-template-car_dealer .classic-filter-row {
+    margin-top: 0;
+}
+
+body.stm-template-listing .stm-loading,
+body.stm-template-car_dealer .stm-loading {
+    opacity: 1;
+}
+
+body.stm-template-car_dealer .stm-form-4-videos .step_number {
+    right: 15px;
+    top: 45px;
+}
+
+body.stm-template-car_dealer .archive-listing-page {
+    margin: 30px 0 46px 0;
+}
+
+body.stm-template-car_dealer .wpb_wrapper .archive-listing-page > .container {
+    padding: 0;
+}
+
+body.stm-template-car_dealer .stm-thumbs-car-gallery .owl-item.current {
+    border-color: transparent;
+}
+
+body.stm-template-listing .single-car-actions > ul li img {
+    max-height: 30px;
+    -webkit-transform: translateZ(0);
+}
+
+body.stm-template-listing .single-car-actions > ul li .dealer-image img {
+    max-height: inherit;
+}
+
+body.stm-template-listing .listing-list-loop .content .title {
+    padding-bottom: 0;
+}
+
+body.stm-template-listing #stm_filter_max_price,
+body.stm-template-listing #stm_filter_min_price {
+    padding: 0 9px;
+}
+
+.stm-settings-confirm-password .stm-listing-loader {
+    visibility: hidden;
+    opacity: 0;
+    color: #fff;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b.stm-preloader,
+.stm-settings-confirm-password .stm-listing-loader i {
+    -webkit-animation: rotating 2s infinite linear;
+    animation: rotating 2s infinite linear;
+}
+
+.stm-settings-confirm-password .stm-listing-loader.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.stm-settings-confirm-password .stm-user-message {
+    color: #fff;
+}
+
+.stm-image-avatar.hide-empty .stm-empty-avatar-icon {
+    display: none;
+}
+
+.stm-image-avatar.hide-photo img,
+.stm-image-avatar.hide-photo .stm_image_upl {
+    display: none;
+}
+
+.vc_row .archive-listing-page > .container {
+    padding: 0;
+}
+
+/*Boats fix*/
+.stm-filter-sidebar-boats #stm-classic-filter-submit {
+    min-width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.stm-featured-boats-widget .stm-featured-boats-w-units .content .title {
+    min-height: 36px;
+}
+
+.stm-template-motorcycle .classic-filter-row input[type="text"] {
+    display: block !important;
+    visibility: visible !important;
+    border: 1px solid rgba(170, 170, 170, 0.4);
+    background: transparent;
+    color: #fff;
+}
+
+/*Slider fixes*/
+.stm-slider-round {
+    padding: 58px 19px 50px 27px !important;
+}
+
+.stm-service-slider-title {
+    padding: 27px 37px 27px 30px !important;
+}
+
+.stm-service-slider-price {
+    padding: 12px 39px 11px 32px !important;
+}
+
+.stm-service-slider-title-centered {
+    text-align: center !important;
+}
+
+.stm-boats-layer .pricing-unit {
+    text-align: right !important;
+}
+
+.stm_trapeze {
+    padding: 41px 30px 34px 15px !important;
+}
+
+.stm_trapeze_white {
+    padding: 25px 0 29px 0 !important;
+}
+
+.stm_trapeze_red {
+    padding: 13px 16px 12px 10px !important;
+}
+
+/*Slider fixes end*/
+body.stm-template-listing.stm-boxed .stm-user-private .stm-user-private-sidebar:before {
+    width: 55px;
+    left: -55px;
+}
+
+body.stm_frontend_customizer .select2-dropdown {
+    z-index: 99999;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li img {
+    margin-right: 10px;
+}
+
+#main .widget_search form.search-form:after {
+    line-height: 45px;
+}
+
+#services .ui-widget-content {
+    background: inherit !important;
+}
+
+@media (max-width: 767px) {
+    .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-cars,
+    .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .map_link,
+    .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.image {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td {
+        display: block;
+        padding: 15px 0 5px;
+        margin-bottom: 0;
+    }
+}
+
+.woocommerce-billing-fields .create-account {
+    margin-top: 20px;
+}
+
+.stm-template-listing #modern-filter-listing .listing-list-loop .image .image-inner {
+    min-height: 150px;
+}
+
+.single-car-actions > ul li {
+    margin-right: 10px;
+}
+
+.ui-widget {
+    font-family: inherit !important;
+}
+
+body.stm-template-motorcycle.single-listings .stm_breadcrumbs_unit {
+    display: none;
+}
+
+.stm-filter-tab-selects.filter.stm-vc-ajax-filter {
+    margin-bottom: 0;
+}
+
+.stm-template-motorcycle .stm-ajax-row.stm-loading>div {
+    opacity: 0.5;
+}
+
+.stm-template-motorcycle .stm_auto_loan_calculator input {
+    color: #0e1315;
+}
+
+.stm-template-motorcycle .form-hr {
+    border-top-color: #4c4f51;
+}
+
+.stm-ajax-row.stm-loading:after {
+    display: none !important;
+}
+
+body .bookly-form .picker__day,
+body .bookly-form .picker__day:hover,
+body .bookly-form .picker__weekday,
+body .bookly-form .picker__weekday:hover,
+body .bookly-form .picker__year,
+body .bookly-form .picker__year:hover {
+    color: #fff !important;
+}
+
+.widget_car_location #stm-dealer-gmap {
+    width: 100%;
+    margin-top: 0;
+}
+
+/*Prevent gallery from loading all images*/
+.stm-thumbs-car-gallery .stm-single-image,
+.stm-big-car-gallery .stm-single-image {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    margin: 0;
+}
+
+.stm-thumbs-car-gallery .stm-single-image:first-child,
+.stm-big-car-gallery .stm-single-image:first-child {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+}
+
+.stm-thumbs-car-gallery.owl-loaded .stm-single-image:first-child,
+.stm-big-car-gallery.owl-loaded .stm-single-image:first-child {
+    margin: 0 auto;
+}
+
+.stm-thumbs-car-gallery {
+    margin-top: 25px;
+}
+
+.stm-big-car-gallery .owl-controls {
+    margin: 0;
+}
+
+/*Additional videos on car dealer*/
+.stm-template-car_dealer .stm-car-carousels .stm-car-medias {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 20; }
+
+.stm-template-car_dealer .stm-car-carousels .stm-car-medias > div {
+    display: inline-block;
+    margin-right: 9px;
+    padding: 4px 15px 2px 10px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 600; }
+
+.stm-template-car_dealer .stm-car-carousels .stm-car-medias > div i {
+    font-size: 12px;
+    margin-right: 2px; }
+
+.stm-template-car_dealer .stm-car-carousels .stm-car-medias > div span {
+    position: relative;
+    top: -1px;
+    text-transform: uppercase; }
+
+.stm-template-car_dealer .stm-car-carousels .stm-car-medias > div:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6); }
+
+.stm-template-car_dealer .stm-car-carousels .stm-car-medias > div.stm-listing-videos-unit i {
+    position: relative;
+    top: -1px;
+    left: 1px;
+    margin-right: 3px; }

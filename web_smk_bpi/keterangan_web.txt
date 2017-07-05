@@ -1,0 +1,9 @@
+Keterangan: 
+
+Login admin: http://localhost/web_smk_bpi/Administrator
+username: admin
+password: admin
+
+Login piket: http://localhost/web_smk_bpi/administrator/daftar_absen
+username: piket
+password: piket

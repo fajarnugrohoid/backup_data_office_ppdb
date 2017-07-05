@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'stm-service-default';
+    src:    url('../fonts/service-fonts/stm-service-default.eot?vcgqsx');
+    src:    url('../fonts/service-fonts/stm-service-default.eot?vcgqsx#iefix') format('embedded-opentype'),
+        url('../fonts/service-fonts/stm-service-default.ttf?vcgqsx') format('truetype'),
+        url('../fonts/service-fonts/stm-service-default.woff?vcgqsx') format('woff'),
+        url('../fonts/service-fonts/stm-service-default.svg?vcgqsx#stm-service-default') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="stm-service-icon-"], [class*=" stm-service-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'stm-service-default' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stm-service-icon-shield-o:before {
+    content: "\e923";
+}
+.stm-service-icon-reviews:before {
+    content: "\e924";
+}
+.stm-service-icon-two_users:before {
+    content: "\e925";
+}
+.stm-service-icon-car-listing:before {
+    content: "\e926";
+}
+.stm-service-icon-pin_big:before {
+    content: "\e922";
+}
+.stm-service-icon-sales_pin:before {
+    content: "\e91f";
+}
+.stm-service-icon-write-review:before {
+    content: "\e91e";
+}
+.stm-service-icon-sales_phone:before {
+    content: "\e920";
+}
+.stm-service-icon-sales_hours:before {
+    content: "\e921";
+}
+.stm-service-icon-photos:before {
+    content: "\e91c";
+}
+.stm-service-icon-add_check:before {
+    content: "\e91d";
+}
+.stm-service-icon-star-o:before {
+    content: "\e91a";
+}
+.stm-service-icon-inventory:before {
+    content: "\e91b";
+}
+.stm-service-icon-write_message:before {
+    content: "\e919";
+}
+.stm-service-icon-hashtag:before {
+    content: "\e918";
+}
+.stm-service-icon-mail-o:before {
+    content: "\e916";
+}
+.stm-service-icon-user-2:before {
+    content: "\e917";
+}
+.stm-service-icon-pin_2:before {
+    content: "\e914";
+}
+.stm-service-icon-phone_2:before {
+    content: "\e915";
+}
+.stm-service-icon-vin_check:before {
+    content: "\e911";
+}
+.stm-service-icon-color_type:before {
+    content: "\e912";
+}
+.stm-service-icon-body_type:before {
+    content: "\e913";
+}
+.stm-service-icon-pin:before {
+    content: "\e910";
+}
+.stm-service-icon-mail:before {
+    content: "\e90e";
+}
+.stm-service-icon-phone:before {
+    content: "\e90f";
+}
+.stm-service-icon-compare-new:before {
+    content: "\e90b";
+}
+.stm-service-icon-staricon:before {
+    content: "\e90c";
+}
+.stm-service-icon-photo:before {
+    content: "\e90d";
+}
+.stm-service-icon-cog:before {
+    content: "\e90a";
+}
+.stm-service-icon-listing-compare:before {
+    content: "\e909";
+}
+.stm-service-icon-user:before {
+    content: "\e908";
+}
+.stm-service-icon-listing_car_plus:before {
+    content: "\e907";
+}
+.stm-service-icon-cash_dollar:before {
+    content: "\e900";
+}
+.stm-service-icon-like_it:before {
+    content: "\e901";
+}
+.stm-service-icon-shield_check:before {
+    content: "\e902";
+}
+.stm-service-icon-award_blank:before {
+    content: "\e903";
+}
+.stm-service-icon-diagnostic_monitor:before {
+    content: "\e904";
+}
+.stm-service-icon-calendar_service:before {
+    content: "\e905";
+}
+.stm-service-icon-appointment_calendar:before {
+    content: "\e906";
+}
+

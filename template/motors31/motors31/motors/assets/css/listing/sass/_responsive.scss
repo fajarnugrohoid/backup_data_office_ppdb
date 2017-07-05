@@ -1,0 +1,981 @@
+@media (max-width:1100px) {
+   .listing-logo-main {
+      margin-right: 15px;
+   }
+   .header-listing .listing-right-actions {
+      margin-left: 15px;
+   }
+   .lOffer-compare {
+      margin-right: 30px;
+   }
+   .lOffer-account-unit {
+      margin-right: 40px;
+   }
+   .header-listing .listing-menu {
+      text-align: center;
+      > li {
+	  margin-right: 20px;
+	  &:last-child {
+	     margin-right: 0;
+	  }
+      }
+   }
+   .stm-similar-cars-units .stm-similar-car .right-unit .stm-price {
+      margin-bottom: 10px;
+   }
+   .stm-similar-cars-units .stm-similar-car .right-unit .stm-car-similar-meta {
+      clear: both;
+   }
+   .listing-list-loop .content .meta-middle .meta-middle-unit {
+      display: inline-block !important;
+   }
+   .stm_add_car_form .stm_add_car_form_1 .stm-form-1-end-unit .stm-form-1-quarter {
+      input[type="text"],
+      .select2 {
+         max-width: 170px;
+      }
+   }
+}
+
+//sm
+@media (min-width:991px) {
+   #wrapper {
+      padding-top: 0 !important;
+   }
+}
+@media (max-width:991px) {
+   .listing-archive-dealer-info .dealer-info-block {
+      display: block;
+   }
+   .header-listing .listing_add_cart > div:hover {
+      background: $white !important;
+      color: #5b6771 !important;
+      opacity: 1;
+   }
+   .stm_dynamic_listing_filter:before {
+      background: none;
+   }
+   .stm-template-listing #top-bar {
+      .top_bar_menu {
+         display: none;
+      }
+      .header-top-bar-socs {
+         display: block;
+      }
+   }
+   .stm-vc-listing-pad__right {
+      padding-right: 15px !important;
+   }
+   .stm-vc-listing-pad__left {
+      padding-left: 15px !important;
+   }
+   .stm_listing_icon_filter .stm_listing_icon_filter_single {
+      text-align: center;
+   }
+   .stm_listing_icon_filter .stm_listing_icon_filter_single .inner {
+      max-width: 160px;
+      width: auto;
+      margin: 0 auto;
+   }
+   .stm_listing_tabs_style_2 .tab-pane {
+      .row-4 .col-md-3:nth-child(4n+1) {
+         clear: none;
+      }
+      .row-4 .col-md-3:nth-child(3n+1) {
+         clear: none;
+      }
+      .stm-directory-grid-loop {
+         & > a.rmv_txt_drctn {
+            display: block;
+            width: auto;
+            max-width: 255px;
+            margin: 0 auto;
+         }
+      }
+   }
+   .stm-template-listing .archive-listing-page {
+      margin-top: 30px;
+   }
+   .stm-listing-directory-checkboxes.stm-two_cols .stm-accordion-content-wrapper .stm-option-label {
+      width: 25%;
+      &:nth-child(2n+1) {
+         clear: none;
+      }
+      &:nth-child(4n+1) {
+         clear: both;
+      }
+   }
+   .stm-template-listing {
+      .listing-list-loop .content .meta-middle .meta-middle-unit {
+         display: inline-block !important
+      }
+   }
+   .lOffer-account-dropdown,
+   .lOffer-compare,
+   .listing-menu {
+      display: none;
+   }
+
+   .lOffer-account {
+      margin-top: 0px;
+      width: 38px;
+      height: 38px;
+      line-height: 38px;
+      font-size: 14px;
+      opacity: 0.5;
+      background-color: $white !important;
+      color: #5b6771 !important;
+      &.active {
+         opacity: 1;
+      }
+      .stm-dropdown-user-small-avatar {
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+      }
+   }
+
+   #wrapper {
+      //padding-top: 90px;
+   }
+
+   #header {
+      min-height: 0 !important;
+      z-index: 100;
+      .header-listing {
+         padding: 20px 0 18px;
+         position: fixed;
+         top: 0;
+         width: 100%;
+         left: 0;
+         z-index: 98;
+      }
+   }
+
+   .stm-user-mobile-info-wrapper {
+      display: block;
+      position: fixed;
+      top: 82px;
+      bottom: 0;
+      right: -279px;
+      background-color: $listing_green_dk;
+      padding: 16px 0 16px;
+      width: 279px;
+      @include box-shadow(-1px,3px,5px,rgba(0,0,0,0.2));
+      overflow-y: auto;
+      overflow-x: hidden;
+      z-index: 100;
+      &.active {
+         right: 0;
+      }
+   }
+
+   .header-listing .listing_add_cart {
+      float: left !important;
+      margin-top: 0;
+      div {
+         width: 38px;
+         height: 38px;
+         border-radius: 50%;
+         padding: 0 !important;
+         text-indent: -9999px;
+         background: white;
+         opacity: 0.5;
+         i {
+            text-indent: 0;
+            top: 9px;
+            left: 6px;
+            font-size: 17px;
+            color: #5b6771;
+         }
+      }
+   }
+
+   .listing-right-actions {
+      .pull-right {
+         float: left !important;
+      }
+      .lOffer-account-unit {
+         margin-right: 20px;
+         margin-left: 16px;
+      }
+   }
+
+   #top-bar {
+      display: none;
+   }
+
+   .listing-menu-mobile-wrapper {
+      position: relative;
+      float: left;
+      margin-top: 6px;
+      .stm-opened-menu-listing {
+         position: fixed;
+         top: 82px;
+         bottom: 0;
+         right: -279px;
+         background-color: $listing_green_dk;
+         padding: 16px 0 16px;
+         width: 279px;
+         @include box-shadow(-1px,3px,5px,rgba(0,0,0,0.2));
+         overflow-y: auto;
+         overflow-x: hidden;
+         z-index: 100;
+         &:before {
+            @include pseudo();
+            top: -5px;
+            right: 25px;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 5px solid $listing_green_dk;
+         }
+         &.opened {
+            right: 0;
+         }
+         #top-bar {
+            display: block;
+         }
+         .top-bar-wrapper {
+            padding: 0 !important;
+            .top-bar-info {
+               display: none;
+            }
+            .pull-right {
+               float: none !important;
+               width: 100%;
+            }
+            .header-login-url {
+               display: none;
+            }
+            .header-top-bar-socs {
+               background: rgba(0,0,0,0.1);
+               padding: 15px 20px 15px 36px;
+               margin: 0 -15px !important;
+               li {
+                  margin-right: 26px !important;
+                  &:last-child {
+                     margin-right: 0 !important;
+                  }
+                  a {
+                     i {
+                        font-size: 16px !important;
+                     }
+                  }
+               }
+            }
+            .top_bar_menu {
+               padding-top: 10px;
+               display: block !important;
+               margin-left: 20px !important;
+               li {
+                  width: 100%;
+                  a {
+                     display: block;
+                     padding: 15px 0 !important;
+                     font-size: 14px !important;
+                  }
+                  &:after {
+                     display: none;
+                     opacity: 0;
+                  }
+               }
+            }
+            .language-switcher-unit {
+               float: none !important;
+               background: rgba(0,0,0,0.1);
+               padding: 15px 10px 0px 36px;
+               margin: 0 -15px !important;
+               .stm_current_language {
+                  padding-bottom: 10px;
+                  font-size: 14px !important;
+                  i {
+                     position: absolute !important;
+                     top: 15px !important;
+                     right: 25px !important;
+                  }
+               }
+               .dropdown-menu {
+                  position: static;
+                  float: none !important;
+                  background-color: transparent !important;
+                  border: 0 !important;
+                  box-shadow: none !important;
+                  li {
+                     box-shadow: none !important;
+                     a {
+                        background-color: transparent !important;
+                        padding: 0px 0 10px !important;
+                        color: #aaa !important;
+                        font-size: 14px !important;
+                     }
+                  }
+               }
+            }
+         }
+         .listing-menu-mobile {
+            padding: 0;
+            list-style: none;
+            li {
+               margin-bottom: 0;
+               a {
+                  display: block;
+                  height: 50px;
+                  line-height: 50px;
+                  padding-left: 36px;
+                  padding-right: 25px;
+                  text-decoration: none !important;
+               }
+            }
+            > li {
+               margin-bottom: 0;
+               > a {
+                  padding-right: 40px;
+                  position: relative;
+                  color: $white;
+                  font-size: 20px;
+                  font-weight: 700;
+                  .stm_frst_lvl_trigger {
+                     position: absolute;
+                     right: 0;
+                     top: 0;
+                     width: 50px;
+                     height: 50px;
+                     opacity: 0.5;
+                     &.active {
+                        opacity: 1;
+                        &:after,
+                        &:before {
+                           @include transform(rotate(-45deg));
+                        }
+                     }
+                     &:after {
+                        @include pseudo();
+                        top: 17px;
+                        left: 17px;
+                        width: 3px;
+                        height: 13px;
+                        background: white;
+                     }
+                     &:before {
+                        @include pseudo();
+                        top: 22px;
+                        left: 12px;
+                        width: 13px;
+                        height: 3px;
+                        background: white;
+                     }
+                  }
+               }
+               > ul {
+                  position: relative;
+                  &:before {
+                     @include pseudo();
+                     top: -5px;
+                     right: 25px;
+                     width: 0;
+                     height: 0;
+                     border-left: 6px solid transparent;
+                     border-right: 6px solid transparent;
+                     border-bottom: 5px solid #fff;
+                  }
+                  > li {
+                     border-bottom: 1px solid #e1e1e1;
+                     > a {
+                        background-color: $white;
+                        color: #222;
+                     }
+                     > ul {
+                        position: relative;
+                        &:before {
+                           @include pseudo();
+                           top: -5px;
+                           right: 25px;
+                           width: 0;
+                           height: 0;
+                           border-left: 6px solid transparent;
+                           border-right: 6px solid transparent;
+                           border-bottom: 5px solid #e1e1e1;
+                        }
+                        > li {
+                           a {
+                              background-color: #e1e1e1;
+                              color: #222;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+            & ul.sub-menu {
+               display: none;
+               margin: 0;
+               padding: 0;
+               list-style: none;
+            }
+         }
+      }
+      .stm-menu-trigger {
+         margin-top: 0px;
+         span {
+            display: block;
+            width: 28px;
+            height: 4px;
+            margin-bottom: 7px;
+            border-radius: 2px;
+            background: rgba(255,255,255,0.5);
+            &:first-child {
+               position: relative;
+               top: 0;
+               -webkit-transition: top .3s .3s, transform .3s 0s;
+               transition: top .3s .3s, transform .3s 0s;
+            }
+            &:nth-child(2) {
+               opacity: 1;
+               -webkit-transition: opacity .3s;
+               transition: opacity .3s;
+            }
+            &:last-child {
+               margin-bottom: 0;
+               position: relative;
+               top: 0;
+               -webkit-transition: top .3s .3s, transform .3s 0s;
+               transition: top .3s .3s, transform .3s 0s;
+            }
+         }
+         &.opened {
+            span {
+               background: rgba(255,255,255,1);
+               &:first-child {
+                  top: 11px;
+                  @include transform(rotate(-45deg));
+                  -webkit-transition: top .3s 0s, transform .3s .3s;
+                  transition: top .3s 0s, transform .3s .3s;
+               }
+               &:nth-child(2) {
+                  opacity: 0;
+
+               }
+               &:last-child {
+                  top: -11px;
+                  @include transform(rotate(45deg));
+                  -webkit-transition: top .3s 0s, transform .3s .3s;
+                  transition: top .3s 0s, transform .3s .3s;
+               }
+            }
+         }
+      }
+   }
+   .stm-user-private .stm-user-private-main {
+      //padding-top: 0;
+   }
+   .stm-listing-directory-title {
+      text-align: center;
+   }
+   .listing-logo-main {
+      margin-top: 0 !important;
+      height: 44px;
+      line-height: 44px;
+      .bloglogo {
+         max-height: 44px;
+         display: inline-block;
+      }
+   }
+   .stm-listing-car-dealer-info {
+      margin-top: 25px;
+   }
+   .header-listing .listing-header-bg {
+      opacity: 0.3;
+   }
+   .header-listing:after {
+      opacity: 1;
+   }
+   .stm_icon_filter_label {
+      margin-right: 0;
+      margin-top: 2px;
+   }
+   .stm-dealer-public-profile .stm-dealer-main-info .stm-dealer-bot-info {
+      padding-left: 0;
+   }
+
+   .stm-pricing__features {
+      display: none;
+   }
+   .stm-pricing__side-panel {
+      float: none;
+      width: 100%;
+   }
+   .stm-pricing__tables {
+      float: none;
+      width: 100%;
+      margin: 0;
+   }
+   .stm-pricing-table__feature-label {
+      padding-top: 5px;
+      display: block;
+   }
+   .copyright-socials ul li {
+      margin-left: 20px;
+   }
+   .stm-login-register-form .stm-register-form form .form-group h4 {
+      margin-top: 15px;
+   }
+   .stm_add_car_form .stm_add_car_form_1 .stm-form-1-end-unit .stm-form-1-quarter {
+      width: 50%;
+   }
+   .stm_add_car_form .stm-form-2-features .stm-single-feature {
+      width: 33.33333%;
+   }
+   .stm-add-media-car {
+      margin-top: 20px;
+   }
+   .stm_add_car_form .stm-form-4-videos .stm-simple-notice {
+      margin: 10px 0 15px;
+   }
+   .stm_add_car_form .stm-form-5-notes .stm-seller-notes-phrases:after {
+      top: -27px;
+      left: 50%;
+      margin-left: -5px;
+   }
+   .stm_add_car_form .stm-form-5-notes .stm-seller-notes-phrases:before {
+      top: -27px;
+      left: 50%;
+      margin-left: -12px;
+   }
+   .stm-pricing-table .stm-pricing-table__action > a {
+      white-space: nowrap;
+   }
+   .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .map_link {
+      display: none;
+   }
+   .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .inner {
+      padding-right: 0;
+      width: auto;
+   }
+   .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.image {
+      padding-right: 15px;
+   }
+} /*sm*/
+
+@media (max-width:767px) {
+   .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-cars,
+   .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.image {
+      display: none;
+   }
+   .stm-add-a-car-user .left-info {
+      float: none;
+      margin-bottom: 20px;
+   }
+   .stm-add-a-car-user .left-info .user-info h4 {
+      margin-top: 0;
+   }
+   .stm-add-a-car-user .right-info {
+      text-align: left;
+   }
+   .stm_add_car_form .stm-form-checking-user .stm_register_title h3 {
+      float: none;
+   }
+   .stm-login-register-form .stm-register-form {
+      margin-top: 30px;
+   }
+   .stm-form-price-edit .stm_price_input {
+      padding: 20px 15px 25px;
+      margin-bottom: 30px;
+   }
+   .stm-add-media-car {
+      padding-right: 0 !important;
+   }
+   .stm_add_car_form .stm-form-3-photos .stm-add-media-car .stm-media-car-gallery .stm-placeholder {
+      width: 50%;
+   }
+   .stm_add_car_form .stm-form-2-features .stm-single-feature {
+      width: 50%;
+   }
+   .stm_add_car_form .stm_add_car_form_1 .stm-form-1-end-unit .stm-form-1-quarter {
+      width: 100%;
+      input[type="text"],
+      .select2 {
+         float: left;
+         margin-right: 15px;
+      }
+   }
+   .stm-my-profile-settings .main-info-settings {
+      padding-right: 0;
+   }
+   .stm-my-profile-settings.stm-become-a-dealer .stm-image-unit .image {
+      display: inline-block;
+      float: none;
+      margin: 0 0 20px;
+   }
+   .stm-pricing_3 .stm-pricing__tables-col {
+      width: 100%;
+   }
+   .stm-pricing_3 .stm-pricing__tables-col .stm-pricing__tables-col-inner {
+      padding: 0 0 60px;
+   }
+   .stm-single-listing-car-features .lists-inline > ul {
+      width: 50%;
+      li {
+         width: 50%;
+      }
+   }
+   .stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav li {
+      float: none;
+      width: 100%;
+   }
+   .stm_dynamic_listing_filter .tab-content button[type="submit"] {
+      margin-left: 0;
+      margin-bottom: 35px;
+      float: none;
+   }
+   .post-grid-single-unit {
+      max-width: 320px;
+      width: auto;
+      margin: 0 auto 50px;
+   }
+
+   .stm-listing-layout-footer .stm-footer-search-inventory {
+      margin-bottom: 15px;
+      float: none;
+      text-align: right;
+   }
+
+   .stm_listing_tabs_style_2 {
+      .stm_listing_nav_list {
+         float: none;
+         margin-top: 35px;
+         text-align: center;
+         li {
+            margin-left: 0;
+         }
+      }
+      h3 {
+         text-align: center;
+      }
+   }
+   .stm_listing_icon_filter.stm_listing_icon_filter_4 .stm_listing_icon_filter_single {
+      width: 33%;
+   }
+
+   .stm-template-listing {
+      .listing-list-loop.stm-listing-directory-list-loop {
+         padding-bottom: 15px;
+         .image {
+            max-width: 100%;
+            margin-right: 0;
+            .image-inner {
+
+            }
+         }
+      }
+      .stm-listing-no-price-labels.listing-list-loop .content .meta-top .price {
+         margin-top: 12px;
+      }
+      .listing-list-loop .content .meta-middle .meta-middle-unit {
+         width: 100%;
+         display: block !important;
+         border-bottom: 1px solid #ddd;
+         padding-bottom: 15px;
+         margin-bottom: 15px;
+         &.meta-middle-divider {
+            display: none !important;
+         }
+         .value {
+            margin-left: 10px;
+            position: relative;
+            top: 4px;
+            font-size: 15px;
+            font-weight: 400;
+         }
+      }
+   }
+   .stm-car-listing-sort-units.stm-car-listing-directory-sort-units .stm-listing-directory-title {
+      float: none;
+      margin-bottom: 20px;
+   }
+   .stm-car-listing-sort-units.stm-car-listing-directory-sort-units .stm-directory-listing-top__right {
+      .stm-sort-by-options {
+         float: left;
+      }
+   }
+   .stm-dealer-private-settings-unit {
+      .main-info-settings {
+         padding-right: 0;
+      }
+      .stm-my-profile-settings {
+         .stm-image-unit {
+            .image {
+               margin-top: 10px;
+               margin-bottom: 20px;
+            }
+            .stm-upload-new-avatar {
+               margin-top: 20px;
+               width: 100%;
+            }
+         }
+      }
+   }
+   .stm-settings-confirm-password {
+      padding-bottom: 19px;
+   }
+   .stm-single-car-listing-data table.stm-table-main > tbody > tr > td {
+      display: block;
+      &.divider-td {
+         display: none;
+      }
+   }
+
+   .stm-listing-single-price-title .price {
+      float: left;
+      margin-bottom: 20px;
+      &:before {
+         display: none;
+      }
+   }
+
+   .stm-listing-single-price-title .title {
+      width: 100%;
+   }
+   .stm-user-private .stm-user-private-main .stm-seller-title.stm-main-title {
+      float: none;
+      margin-bottom: 15px;
+   }
+   .stm-sort-private-my-cars {
+      margin-bottom: 15px;
+      text-align: left;
+   }
+   .listing-list-loop-edit {
+      max-height: inherit;
+   }
+   .stm-template-listing .listing-list-loop .content .meta-middle .meta-middle-unit.location {
+      .stm-tooltip-link {
+         white-space: normal;
+      }
+   }
+   .stm-template-listing .listing-list-loop .content .meta-middle .meta-middle-unit .value {
+      vertical-align: top;
+   }
+   .stm-listing-directory-checkboxes.stm-two_cols .stm-accordion-content-wrapper .stm-option-label {
+      width: 50%;
+   }
+   .col-md-9 .single-listing-car-inner {
+      padding-right: 0;
+   }
+   /*Dealer*/
+   .stm-dealer-tabs .stm_listing_tabs_style_2 .stm-seller-title {
+      float: none;
+      text-align: center;
+   }
+   .stm-dealer-public-profile .stm-dealer-main-info .stm-dealer-image {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 25px;
+   }
+   .stm-dealer-tabs ul.heading-font.stm-dealer-tabs-list {
+      border: 4px solid $listing_green_dk;
+      li {
+         float: none;
+         a {
+            &:before {
+               display: none;
+            }
+         }
+      }
+   }
+   .stm-dealer-review-tab .stm-dealer-rating .stm-dealer-average {
+      width: 100%;
+   }
+   .stm-dealer-review-tab .stm-dealer-rating .stm-dealer-overall {
+      padding: 25px;
+      padding-bottom: 15px;
+      padding-top: 35px;
+      .stm-dealer-rate-part {
+         width: 100%;
+         .stm-star-rating span {
+         }
+      }
+   }
+   .stm-comment-dealer-wrapper .average {
+      float: none;
+      width: 100%;
+   }
+   .stm-comment-dealer-wrapper .overall {
+      float: none;
+      width: 100%;
+      .stm-one-rate {
+         margin-bottom: 15px;
+      }
+   }
+   .stm-comment-dealer-wrapper .stm-bottom .stm-added-by {
+      float: none;
+      margin-bottom: 5px;
+   }
+   .stm-comment-dealer-wrapper .stm-bottom .stm-recommend {
+      padding-left: 0;
+      &:before {
+         display: none;
+      }
+   }
+   .stm-write-dealer-review .right,
+   .stm-write-dealer-review .left {
+      width: 100%;
+      float: none;
+   }
+   .stm-write-dealer-review .right {
+      margin-bottom: 25px;
+   }
+   .stm-dealer-public-profile .stm-dealer-top-right,
+   .stm-dealer-public-profile .stm-dealer-top-left {
+      float: none;
+      margin-bottom: 15px;
+   }
+   .stm-user-public-profile .stm-user-name {
+      float: none;
+      margin-bottom: 20px;
+   }
+   .stm-user-public-profile .stm-user-data-right {
+      text-align: left;
+      .stm-user-email {
+         float: none;
+         margin-left: 0;
+      }
+   }
+   .stm-directory-grid-loop .image {
+      position: relative;
+      display: block;
+      max-width: 255px;
+      width: auto;
+      margin: 0 auto;
+   }
+   .stm-icon-counter {
+      text-align: center;
+      .stm-icon-counter-left {
+         float: none;
+         margin-right: 0;
+         margin-bottom: 10px;
+      }
+   }
+} /*xs*/
+
+@media (max-width:650px) {
+   .stm-single-listing-car-features .lists-inline > ul {
+      width: 33.33333%;
+      li {
+         width: 100%;
+      }
+   }
+}
+
+@media (max-width:600px) {
+   .stm-template-listing #top-bar {
+      .header-top-bar-socs {
+         //display: none;
+      }
+   }
+   .stm-template-listing {
+      .stm_breadcrumbs_unit {
+         display: none;
+      }
+      .stm-view-type-list, .stm-view-type-grid {
+         padding-top: 20px;
+      }
+      .title-box-disabled {
+         height: 20px;
+      }
+   }
+   .stm-single-listing-car-features .lists-inline > ul {
+      width: 50%;
+      li {
+         width: 100%;
+      }
+   }
+}
+
+@media (max-width:500px) {
+   .stm-fixed-attachment {
+      background-attachment: scroll !important;
+   }
+   .stm-footer-search-inventory {
+      span.twitter-typeahead {
+         display: block !important;
+      }
+   }
+   .stm-listing-layout-footer .stm-footer-menu {
+      text-align: center;
+   }
+   .stm-listing-layout-footer .stm-footer-menu .stm-listing-footer-menu {
+      padding-left: 0 !important;
+      li {
+         margin: 0 12px !important;
+      }
+   }
+   .stm-listing-layout-footer .stm-footer-menu .stm-listing-footer-menu li:before {
+      opacity: 0;
+   }
+   .stm-listing-layout-footer .stm-footer-search-inventory input {
+      width: 100%;
+   }
+   .dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td {
+      display: block;
+      padding: 15px 0 5px;
+      margin-bottom: 0;
+   }
+   .stm-blog-fullwidth-info {
+      height: inherit !important;
+      margin-left: 0 !important;
+      max-width: 100%;
+   }
+   .stm_listing_icon_filter.stm_listing_icon_filter_4 .stm_listing_icon_filter_single {
+      width: 50%;
+   }
+
+   .header-listing .listing_add_cart {
+      margin-right: 0;
+   }
+
+   .header-listing .listing-right-actions {
+      margin-left: 5px;
+      margin-top: 2px;
+   }
+
+   .header-listing .listing_add_cart div {
+      margin-top: 2px;
+      width: 33px;
+      height: 33px;
+      i {
+         font-size: 14px;
+      }
+   }
+
+   .listing-right-actions .lOffer-account-unit {
+      margin-top: 3px;
+      margin-right: 10px;
+      margin-left: 10px;
+   }
+
+   .lOffer-account {
+      width: 33px;
+      height: 33px;
+      line-height: 33px;
+   }
+}
+
+@media (max-width:430px) {
+   .stm-single-listing-car-features .lists-inline > ul {
+      width: 100%;
+      li {
+         width: 100%;
+      }
+   }
+   .stm_add_car_form .stm-form-2-features .stm-single-feature {
+      width: 100%;
+   }
+}
+
+@media (max-width:340px) {
+   .stm-single-car-listing-data table.inner-table tr td i {
+      display: none;
+   }
+}

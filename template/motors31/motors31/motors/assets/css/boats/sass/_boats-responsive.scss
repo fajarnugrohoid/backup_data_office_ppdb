@@ -1,0 +1,295 @@
+@media (max-width: 1600px) {
+   .hades.tparrows {
+      .tp-arr-allwrapper {
+	  display: none !important;
+      }
+   }
+}
+
+@media (max-width: 1440px) {
+   .hades.tparrows {
+      display: none !important;
+   }
+}
+
+@media (max-width: 991px) {
+   #stm-boats-header {
+      display: none;
+   }
+   .stm-boats-mobile-header {
+      display: block;
+   }
+   .stm-template-boats #wrapper {
+      padding-top: 80px !important;
+   }
+   .stm-boats-mobile-menu {
+      display: block;
+   }
+   .stm-fullwidth-with-parallax {
+      width: inherit !important;
+      margin-left: -15px !important;
+      padding-left: inherit !important;
+      padding-right: inherit !important;
+   }
+   .row-4 {
+      .col-sm-4 {
+         &:nth-child(4n+1) {
+            clear: none;
+         }
+         &:nth-child(2n+1) {
+            clear: both;
+         }
+      }
+   }
+   .stm-featured-boats-units {
+      .col-sm-4 {
+         width: 50%;
+      }
+   }
+}
+
+@media (max-width:767px) {
+   .testimonials-carousel-boats.owl-carousel .owl-stage-outer {
+      overflow: hidden;
+   }
+   .testimonials-carousel-boats .testimonial-unit-boats {
+      margin: 54px 0 0;
+      padding: 70px 20px 40px;
+   }
+   .stm-fullwidth-with-parallax {
+      margin-left: -15px !important;
+   }
+   .stm-featured-boats-units {
+      .col-sm-4 {
+         width: 100%;
+      }
+   }
+   .stm-layout-box-boats.icon-box {
+      padding: 34px 34px 14px 31px !important;
+   }
+   .stm-boats-video-iframe {
+      margin-bottom: 30px;
+   }
+   .stm-boats-latest-news {
+      .col-md-4 {
+	  text-align: center;
+	  .single-latest-news {
+	     display: inline-block;
+	     vertical-align: top;
+	     text-align: left;
+	     .image {
+		 width: auto;
+		 max-width: 500px;
+		 margin: 0 auto 30px;
+		 a {
+		    display: block;
+		    text-align: center;
+		    img {
+			display: inline-block;
+			max-width: 100%;
+		    }
+		 }
+	     }
+	     .content-unit {
+		 max-width: 350px;
+	     }
+	  }
+      }
+   }
+}
+
+@media (max-width:660px) {
+   .stm-boats-listing-icons > a {
+      width: 33.3333%;
+   }
+}
+
+@media (max-width:440px) {
+   .stm-boats-listing-icons > a {
+      width: 50%;
+   }
+}
+
+
+/*
+BOATS RES*/
+@media (max-width: 1025px) {
+   .classic-filter-row .filter-sidebar {
+      padding-right: 25px;
+      padding-left: 25px;
+   }
+   .classic-filter-row .filter-price {
+      margin-top: 0;
+   }
+   .single-car-prices {
+      margin-top: 0;
+   }
+   .widget_stm_schedule_showing .button {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      i {
+         display: none;
+      }
+   }
+
+   .stm-sort-list-params ul li {
+      width: inherit !important;
+      margin-right: 20px !important;
+      &.price-main {
+         float: left;
+      }
+   }
+   #stm-boats-header #header .header-inner-content .listing-service-right .listing-menu > li {
+      margin: 0 10px;
+   }
+   #stm-boats-header {
+      overflow: hidden;
+   }
+}
+
+@media (max-width:992px) {
+   .pricing {
+      .sale {
+         display: none;
+      }
+   }
+   .car-listing-modern-grid .stm-isotope-listing-item {
+      width: 25%;
+   }
+   .stm-template-front-loop .image:after, .stm-isotope-listing-item .image:after {
+      display: none;
+   }
+   .stm-template-front-loop .image.boats-image-unit,
+   .stm-isotope-listing-item .image .boats-image-unit {
+      opacity: 1;
+      visibility: visible;
+   }
+   .stm-compare-directory-new {
+      opacity: 1;
+      visibility: visible;
+   }
+   #sb_instagram.sbi_col_3 #sbi_images .sbi_item {
+      width: 25%;
+   }
+}
+
+@media (max-width:768px) {
+   .car-listing-modern-grid .stm-isotope-listing-item {
+      width: 33.33%;
+   }
+   .stm-boats-longer-filter > .col-md-12,
+   .stm-boats-shorten-filter > .col-md-12 {
+      width: 100% !important;
+   }
+   #stm-classic-filter-submit {
+      top: inherit;
+      bottom: 47px;
+   }
+   .stm-filter-sidebar-boats.expanded #stm-classic-filter-submit {
+      top: inherit;
+      bottom: 25px;
+   }
+   .stm-slider-filter-type-unit {
+      margin-bottom: 20px !important;
+   }
+   .stm-car-listing-sort-units {
+      display: none;
+   }
+   .vc_tta.vc_general .vc_tta-panel.vc_animating .vc_tta-panel-body {
+      display: none !important;
+   }
+   .vc_tta.vc_general .vc_tta-panel.vc_animating.vc_active .vc_tta-panel-body {
+      display: block !important;
+   }
+   .vc_tta.vc_general .vc_tta-panel-heading {
+      border-bottom: 0 !important;
+      border-top: 0 !important;
+   }
+   .vc_tta.vc_general .vc_tta-panel-title>a {
+      background-color: $orange-dk !important;
+      span {
+         color: $white;
+      }
+   }
+   .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-body {
+      padding: 20px 5px !important;
+   }
+   .list-style-4 {
+      margin-bottom: 30px !important;
+   }
+   .stm-boats-single-top {
+      .pull-right {
+         float: none !important;
+         .stm-boats-single-price {
+            margin: 0 0 35px 0 !important;
+         }
+      }
+   }
+   .vc_tta.vc_general .vc_tta-panel.vc_active {
+      .vc_tta-panel-title {
+         a {
+            background-color: $blue-dk !important;
+         }
+      }
+   }
+   .boat-gallery {
+      a {
+         display: block;
+         text-align: center;
+         img {
+            display: inline-block;
+            vertical-align: top;
+         }
+      }
+   }
+   .stm-boat-contact-wrapper {
+      margin-bottom: 30px !important;
+   }
+   .stm-single-car-page {
+      margin-bottom: 30px;
+   }
+   .stm-filter-sidebar-boats.expanded .form-group {
+      margin-bottom: 30px !important;
+   }
+   .stm-location-search-unit {
+      height: auto !important;
+   }
+}
+
+@media (max-width:600px) {
+   .car-listing-modern-grid .stm-isotope-listing-item {
+      width: 50%;
+   }
+   .stm-car-listing-sort-units .stm-sort-by-options {
+      float: none;
+      margin-bottom: 35px;
+   }
+   .classic-filter-row .filter-sidebar {
+      padding-bottom: 70px;
+   }
+   .stm-boats-expand-filter {
+      padding-bottom: 10px;
+      padding-left: 25px;
+      text-align: left;
+   }
+   #stm-classic-filter-submit {
+      bottom: 20px;
+   }
+
+   .stm-boats-shorten-filter {
+      padding-right: 5px;
+   }
+   .stm-filter-sidebar-boats.expanded .stm-boats-expand-filter {
+      bottom: 20px;
+      padding-left: 25px;
+   }
+   .stm-filter-sidebar-boats.expanded .stm-boats-expand-filter {
+      text-align: left;
+   }
+}
+
+@media (max-width:400px) {
+   .car-listing-modern-grid .stm-isotope-listing-item {
+      width: 100%;
+   }
+}

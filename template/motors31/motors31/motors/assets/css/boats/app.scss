@@ -1,0 +1,92 @@
+/*
+Table of content
+0 Wordpress core styles
+
+1 Base styles
+	1.1 Buttons
+	1.2 Forms
+	1.3 Layout
+	    1.3.1 Header
+	    1.3.2 Footer
+	1.4 Typography
+
+2 Site styles
+	2.1 Site styles
+	2.2 Widgets
+	2.3 Service layout
+
+3 Vendors
+	3.1 Woocommerce
+	3.2 VC standart modules
+	3.3 Vendors
+	3.4 Radio/checkbox
+
+4 Mobile styles
+	4.1 Responsive bootstrap enhanced base styles
+	4.2 Responsive site styles
+*/
+
+
+// Mixins
+@import "sass/mixins";
+
+// Colors and fonts setups
+@import "sass/vars";
+
+
+/* 0 Wordpress core styles */
+@import "sass/wordpress-core";
+
+/* 1 Base Styles */
+
+  /* 1.1 Buttons */
+  @import "sass/buttons";
+
+  /* 1.2 Form controls, form groups */
+  @import "sass/forms";
+
+  /* 1.3 Layout styles */
+  @import "sass/layout";
+    /* 1.3.1 Header */
+    @import "sass/header";
+    /* 1.3.2 Footer */
+    @import "sass/footer";
+
+  /* 1.4 Typography styles */
+  @import "sass/typography";
+
+
+/* 2 Site styles */
+
+  /* 2.1 Site styles */
+  @import "sass/main";
+
+  /* 2.2 Widgets */
+  @import "sass/widgets";
+  
+  /* 2.3 Service */
+  @import "sass/service-layout";
+
+
+/* 3 Vendors */
+  /* 3.1 Woocommerce */
+  @import "sass/woocommerce";
+  /* 3.2 VC */
+  @import "sass/vc_standart";
+  /* 3.3 Vendors */
+  @import "sass/vendors";
+  @import "sass/blog-animated";
+  /*3.4 Radio/Checkbox*/
+  @import "sass/forms_checkbox";
+
+
+/* 4 Mobile styles */
+  /* 4.1 Responsive bootstrap enhanced base styles */
+  @import "sass/responsive_base";
+
+  /* 4.2 Responsive site styles */
+  @import "sass/responsive";
+
+@import "sass/boats";
+
+@import "sass/boats-responsive";
